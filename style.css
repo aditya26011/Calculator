@@ -1,7 +1,15 @@
 
+  @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Noto+Sans:wght@200&family=Roboto+Condensed:wght@300&display=swap');
+
+html,body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
 .button{
+    width: 66px;
     padding: 20px;
-    margin:0 5px ;
+    margin: 0 3px;
     border: 2px solid black;
     border-radius: 9px;
     cursor: pointer;
@@ -12,8 +20,12 @@
 }
 
 .row input {
+    width: 291px;
+
+    font-size: 20px;
     margin: 0;
-    padding: 7px 38px;
+    padding: 10px 0px;
     border: 2px solid black;
-    border-radius: 9px;
+    border-radius: 5px;
 }
+
